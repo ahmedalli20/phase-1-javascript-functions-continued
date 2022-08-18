@@ -15,7 +15,7 @@ function mondayWork(activity= 'go to the office'){
 
 
  function wrapAdjective(me='*'){
-    return function lab(giveBack="a hard worker"){
+    return function emphatic(giveBack="a hard worker"){
         return `You are ${me}${giveBack}${me}!`
     }
 }
